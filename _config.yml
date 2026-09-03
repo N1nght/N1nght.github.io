@@ -25,9 +25,9 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Jianing Cao"
+  name             : "Jianing Cao (曹家宁)"
   pronouns         : # example: "she/her"  
-  bio              : "Phd Student" #"Short biography for the left-hand sidebar"
+  bio              : "PhD Student" #"Short biography for the left-hand sidebar"
   location         : "Nanjing, China"
   employer         : "Southeast University"
   # uri              : # URL
@@ -85,12 +85,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Published Articles'
+  working_papers:
+    title: 'Working Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -167,6 +165,8 @@ include:
   - _pages
   - files
 exclude:
+  - "CV-JianingCao-20260902.docx"
+  - "My-paper.bib"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -222,6 +222,8 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  news:
+    output: false
   teaching:
     output: true
     permalink: /:collection/:path/
