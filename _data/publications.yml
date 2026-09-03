@@ -1,0 +1,63 @@
+# Fallback data for GitHub Pages safe builds.
+# Normal Jekyll builds refresh this data from My-paper.bib via
+# _plugins/bibtex_publications.rb.
+
+- key: "Xin2026NeuralScope"
+  category: "working_papers"
+  year: 2026
+  first_author: false
+  selected: false
+  reference: "Xin, Y., Song, Q., Li, B., Cao, J., Yu, Q., Li, K., Liu, Z., & Cheng, Q. (2026). Hierarchical Neural-Scope Detector for Silent Fault Detection in Vision-Language-Action-Based Autonomous Driving. Communications in Transportation Research."
+  title: "Hierarchical Neural-Scope Detector for Silent Fault Detection in Vision-Language-Action-Based Autonomous Driving"
+  journal: "Communications in Transportation Research"
+
+- key: "Wang2026MoneyLaundering"
+  category: "working_papers"
+  year: 2026
+  first_author: false
+  selected: false
+  reference: "Wang, B., & Cao, J. (2026). Clue-Guided Money Laundering Group Discovery. IEEE Transactions on Knowledge and Data Engineering."
+  title: "Clue-Guided Money Laundering Group Discovery"
+  journal: "IEEE Transactions on Knowledge and Data Engineering"
+
+- key: "Cao2026Vertiport"
+  category: "working_papers"
+  year: 2026
+  first_author: true
+  selected: false
+  reference: "Cao, J., Liu, Z., Lin, Y., & Cheng, Q. (2026). Multi-Period Vertiport Planning for Urban Air Mobility Using an Outer-Approximation-Based Benders Decomposition Method. Transportation Research Part B: Methodological."
+  title: "Multi-Period Vertiport Planning for Urban Air Mobility Using an Outer-Approximation-Based Benders Decomposition Method"
+  journal: "Transportation Research Part B: Methodological"
+
+- key: "Cao2026RegionalCharging"
+  category: "working_papers"
+  year: 2026
+  first_author: true
+  selected: false
+  reference: "Cao, J., Wang, B., Sun, Y., Han, Y., & Chung, S.-H. (2026). Operation State Optimization of Regional Charging Stations: A Data-Driven Robust Optimization Approach. Computers & Operations Research."
+  title: "Operation State Optimization of Regional Charging Stations: A Data-Driven Robust Optimization Approach"
+  journal: "Computers & Operations Research"
+
+- key: "Cao2025LogisticsResilience"
+  category: "manuscripts"
+  year: 2025
+  first_author: true
+  selected: true
+  reference: "Cao, J., Zhang, M., Pan, N., Han, Y., Liu, J., He, Z., & Ai, Z. (2025). Optimization of Three-Echelon Logistics Supply Chain Considering Emergency Scenarios under Resilience Strategy: A Case Study in Power Metering Industry. Computers & Industrial Engineering, 203, 110985."
+  title: "Optimization of Three-Echelon Logistics Supply Chain Considering Emergency Scenarios under Resilience Strategy: A Case Study in Power Metering Industry"
+  journal: "Computers & Industrial Engineering"
+  volume: "203"
+  pages: "110985"
+  doi: "10.1016/j.cie.2025.110985"
+
+- key: "Cao2024UrbanCharging"
+  category: "manuscripts"
+  year: 2024
+  first_author: true
+  selected: true
+  reference: "Cao, J., Han, Y., Pan, N., Zhang, J., & Yang, J. (2024). A Data-Driven Approach to Urban Charging Facility Expansion Based on Bi-Level Optimization: A Case Study in a Chinese City. Energy, 300, 131529."
+  title: "A Data-Driven Approach to Urban Charging Facility Expansion Based on Bi-Level Optimization: A Case Study in a Chinese City"
+  journal: "Energy"
+  volume: "300"
+  pages: "131529"
+  doi: "10.1016/j.energy.2024.131529"

@@ -2,6 +2,11 @@
 
 ## 2026-09-03
 
+### GitHub Pages build compatibility
+
+- Added `_data/publications.yml` as a fallback for GitHub Pages safe builds, which do not load custom Jekyll plugins.
+- Normal Jekyll builds continue to refresh publication data directly from `My-paper.bib` through `_plugins/bibtex_publications.rb`.
+
 ### Profile and navigation
 
 - Updated the homepage introduction in `_pages/about.md` to present Jianing Cao as a PhD student in the School of Transportation at Southeast University.
